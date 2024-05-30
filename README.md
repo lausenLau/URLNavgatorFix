@@ -22,7 +22,7 @@ pod 'URLNavgatorFix'
 
 ## Author
 
-13776379, 821385843@qq.com
+13776379, 2865028820@qq.com
 
 ## License
 
