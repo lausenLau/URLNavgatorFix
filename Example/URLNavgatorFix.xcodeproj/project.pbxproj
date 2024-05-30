@@ -31,7 +31,7 @@
 		02B88DD1436B7769B0605B9D /* Pods-URLNavgatorFix_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLNavgatorFix_Example.debug.xcconfig"; path = "Target Support Files/Pods-URLNavgatorFix_Example/Pods-URLNavgatorFix_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0F804F20FD154123CF6A725C /* Pods_URLNavgatorFix_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLNavgatorFix_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29737EC594A3E06DB8EB459B /* Pods_URLNavgatorFix_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLNavgatorFix_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50AD2D5D14145AE2554EBA66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		50AD2D5D14145AE2554EBA66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* URLNavgatorFix_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLNavgatorFix_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A8EF101C0CD786B078E80E00 /* Pods-URLNavgatorFix_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLNavgatorFix_Tests.debug.xcconfig"; path = "Target Support Files/Pods-URLNavgatorFix_Tests/Pods-URLNavgatorFix_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BDA2DAE05914C3D1F5FBADEC /* URLNavgatorFix.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = URLNavgatorFix.podspec; path = ../URLNavgatorFix.podspec; sourceTree = "<group>"; };
-		C40709AF9DA5405956A5EFD0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BDA2DAE05914C3D1F5FBADEC /* URLNavgatorFix.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = URLNavgatorFix.podspec; path = ../URLNavgatorFix.podspec; sourceTree = "<group>"; };
+		C40709AF9DA5405956A5EFD0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CE0B59BB0927BF1E33A83412 /* Pods-URLNavgatorFix_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLNavgatorFix_Tests.release.xcconfig"; path = "Target Support Files/Pods-URLNavgatorFix_Tests/Pods-URLNavgatorFix_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CE7E517C6CE5424145840FFC /* Pods-URLNavgatorFix_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLNavgatorFix_Example.release.xcconfig"; path = "Target Support Files/Pods-URLNavgatorFix_Example/Pods-URLNavgatorFix_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				A8EF101C0CD786B078E80E00 /* Pods-URLNavgatorFix_Tests.debug.xcconfig */,
 				CE0B59BB0927BF1E33A83412 /* Pods-URLNavgatorFix_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = URLNavgatorFix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = URLNavgatorFix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -516,6 +518,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +537,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
