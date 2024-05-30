@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   spec.source_files  = 'URLNavgatorFix/Classes/**/*'
   spec.frameworks    = 'UIKit', 'Foundation'
   spec.requires_arc  = true
-
+  spec.swift_versions = ['5.0']
 end

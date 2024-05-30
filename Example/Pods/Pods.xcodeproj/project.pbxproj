@@ -62,7 +62,7 @@
 		3B733BCD58342B4037389631831363D5 /* Pods-URLNavgatorFix_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URLNavgatorFix_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3CD250938D0AE100D5B91BB3EBEE91CA /* URLPathComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLPathComponent.swift; path = URLNavgatorFix/Classes/URLPathComponent.swift; sourceTree = "<group>"; };
 		4060431BB8A74897EE379DD219E53728 /* UIViewControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerType.swift; path = URLNavgatorFix/Classes/UIViewControllerType.swift; sourceTree = "<group>"; };
-		4524DAC2AE7B77C66C97C9A57E404B31 /* URLNavgatorFix.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = URLNavgatorFix.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4524DAC2AE7B77C66C97C9A57E404B31 /* URLNavgatorFix.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = URLNavgatorFix.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		4C97574AB6B1B9A65CB56163C3B22F5A /* Pods-URLNavgatorFix_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URLNavgatorFix_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4F8EA7A4B6110C0386367252B40D5DF0 /* URLNavgatorFix-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URLNavgatorFix-prefix.pch"; sourceTree = "<group>"; };
 		4FD7DC84E4940314AAD0B6FF785AB602 /* Pods-URLNavgatorFix_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-URLNavgatorFix_Example"; path = Pods_URLNavgatorFix_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +74,7 @@
 		73FFE34DB31867BBBE527B90D495CC35 /* Pods-URLNavgatorFix_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-URLNavgatorFix_Example-frameworks.sh"; sourceTree = "<group>"; };
 		923ADE3DE66757F7BB12E8778EFBA1EF /* Pods-URLNavgatorFix_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URLNavgatorFix_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9871CD2346B7CB2222C4E179BBE4023F /* URLNavgatorFix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "URLNavgatorFix-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A454E2B936810AE767700ECD722D6972 /* Pods-URLNavgatorFix_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URLNavgatorFix_Example-Info.plist"; sourceTree = "<group>"; };
 		A87DE5DBF79F2525239B8C8B444184C3 /* Pods-URLNavgatorFix_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-URLNavgatorFix_Tests-dummy.m"; sourceTree = "<group>"; };
 		A883241201F4C3F7961F738B7A1D6BB3 /* Pods-URLNavgatorFix_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-URLNavgatorFix_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -84,12 +84,12 @@
 		D86EB67F4928CD406A7620ECAE89ECF3 /* URLNavgatorFix */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = URLNavgatorFix; path = URLNavgatorFix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00FFB3DFEE49C7E422DCCC42B4DFE40 /* URLNavgatorFix-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "URLNavgatorFix-Info.plist"; sourceTree = "<group>"; };
 		E40C8E4B6C0222ACE0426C9A3C14885B /* URLNavgatorFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLNavgatorFix.release.xcconfig; sourceTree = "<group>"; };
-		E6F0F73C541C8FCBDCBB0E85A854DDF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E6F0F73C541C8FCBDCBB0E85A854DDF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EABC02563838106E4122E963BA581E1F /* URLNavgatorFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLNavgatorFix.debug.xcconfig; sourceTree = "<group>"; };
 		F066255C55E558EBA89DA7C7E2EA51EA /* Pods-URLNavgatorFix_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URLNavgatorFix_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F17BE2ECC2B5962044DAE4523A362535 /* Pods-URLNavgatorFix_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-URLNavgatorFix_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F5EDE773463412FB8A52844450DBF3E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F5EDE773463412FB8A52844450DBF3E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -671,8 +671,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
