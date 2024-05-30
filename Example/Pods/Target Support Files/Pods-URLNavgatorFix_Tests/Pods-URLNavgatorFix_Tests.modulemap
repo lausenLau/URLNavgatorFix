@@ -1,0 +1,6 @@
+framework module Pods_URLNavgatorFix_Tests {
+  umbrella header "Pods-URLNavgatorFix_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

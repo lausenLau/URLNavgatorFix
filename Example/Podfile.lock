@@ -1,0 +1,16 @@
+PODS:
+  - URLNavgatorFix (1.0.0)
+
+DEPENDENCIES:
+  - URLNavgatorFix (from `../`)
+
+EXTERNAL SOURCES:
+  URLNavgatorFix:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  URLNavgatorFix: 46c213f2c9bc82bf46628dd97307ca5eec290ad8
+
+PODFILE CHECKSUM: 43113204ded32c81cf09f740968699782f90d1c0
+
+COCOAPODS: 1.11.3

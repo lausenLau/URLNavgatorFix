@@ -1,0 +1,6 @@
+framework module URLNavgatorFix {
+  umbrella header "URLNavgatorFix-umbrella.h"
+
+  export *
+  module * { export * }
+}
